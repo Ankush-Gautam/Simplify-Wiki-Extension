@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Simple Wiki",
+  "version": "1.0",
+  "description": "Simplifies the Wikipedia page layout for better readability.",
+  "icons": {
+    "48": "icon.png"
+  },
+  "permissions": ["activeTab", "storage"],
+  "content_scripts": [
+    {
+      "matches": ["https://*.wikipedia.org/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}

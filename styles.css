@@ -1,0 +1,190 @@
+/* // Don't read the code it's a mess I know
+// I just picked and style the elements randomly
+// I'll maybe restructure with proper refactoring
+// to disable and enable some elements */
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background-color: rgb(20, 20, 20) !important;
+  color: rgb(230, 230, 230) !important;
+  font-size: 16px;
+}
+
+.mw-page-container,
+header {
+  background-color: transparent !important;
+}
+
+.mp-box,
+#mp-tfp > tr {
+  padding: 1rem !important;
+  background-color: transparent !important;
+}
+
+#mp-free,
+#articlecount {
+  font-size: 1.5rem !important;
+}
+
+#mp-upper {
+  gap: 2rem !important;
+}
+
+.mp-thumb {
+  margin: 1rem !important;
+}
+
+li {
+  margin-bottom: 0.6rem !important;
+}
+
+#mw-panel-toc {
+  background-color: #242424 !important;
+  padding: 0.5rem !important;
+  font-size: 1.2rem !important;
+}
+
+#vector-toc-pinned-container {
+  padding-top: 2rem !important;
+
+  background-color: #242424 !important;
+}
+.mp-h2 {
+  font-size: 1.6rem !important;
+  border: none !important;
+  outline: none !important;
+}
+
+.mp-contains-float {
+  padding: 0.6rem;
+  margin-bottom: 4rem !important;
+  background-color: #19191a !important;
+}
+
+a[title='Special:Statistics'] {
+  background: linear-gradient(90deg, #ff3535, #7b7dfe) !important;
+  background-clip: text !important;
+  color: transparent !important;
+  font-size: 4rem !important;
+}
+
+body > div.vector-header-container > header > div.vector-header-start > nav {
+  display: none;
+}
+.vector-pinnable-header-toggle-button,
+.vector-pinnable-header-unpin-button {
+  display: none !important;
+}
+
+div {
+  border: none !important;
+  outline: none !important;
+}
+
+#mw-content-text
+  > div.mw-content-ltr.mw-parser-output
+  > table.box-More_citations_needed.plainlinks.metadata.ambox.ambox-content.ambox-Refimprove {
+  display: none !important;
+}
+
+.mw-page-container-inner {
+  column-gap: 4rem !important;
+}
+
+#firstHeading {
+  margin-top: 2rem !important;
+}
+/* main title */
+h1 {
+  font-size: 4.2rem !important;
+}
+
+h2 {
+  font-size: 3rem !important;
+}
+
+h2::before {
+  content: '# ';
+}
+
+.vector-pinnable-header-label {
+  font-size: 1.2rem !important;
+}
+
+.mw-heading2 {
+  margin-top: 4rem !important;
+}
+
+h3 {
+  font-size: 2rem !important;
+}
+
+.mw-editsection {
+  display: none !important;
+}
+
+#p-lang-btn {
+  display: none !important;
+}
+
+a {
+  color: rgb(147, 166, 255) !important;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: white;
+  line-height: 1.8;
+  padding: 0.6rem 0;
+}
+
+.vector-sitenotice-container {
+  display: none;
+}
+
+.vector-header {
+  position: relative !important;
+}
+
+.vector-header-end {
+  justify-content: flex-end !important;
+}
+
+#p-search {
+  max-width: 700px !important;
+  border-radius: 0.4rem !important;
+  font-size: 1.2rem !important;
+}
+
+div.mw-indicators {
+  display: none !important;
+}
+
+div.mw-footer-container {
+  padding: 0 !important;
+}
+
+#footer {
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+#mw-content-text
+  > div.mw-content-ltr.mw-parser-output
+  > table.box-Duplicated_citations.plainlinks.metadata.ambox.ambox-style.ambox-cleanup-link_rot {
+  display: none;
+}
+
+.reference {
+  display: none;
+}
